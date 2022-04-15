@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Overview from './pages/Overview';
-import { Reports, ReportsOne, ReportsTwo} from './pages/Reports';
+import { Meeting, MeetingOne, MeetingTwo} from './pages/Meeting';
 import Team from './pages/Team';
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
       <Sidebar />
         <Routes>
         <Route path='/overview' exact component={Overview} />
-        <Route path='/reports' exact component={Reports} />
-        <Route path='/reports/reports1' exact component={ReportsOne} />
-        <Route path='/reports/reports2' exact component={ReportsTwo} />
+        <Route path='/meeting' exact component={Meeting} />
+        <Route path='/meeting/meeting1' exact component={MeetingOne} />
+        <Route path='/meeting/meeting2' exact component={MeetingTwo} />
 
         <Route path='/team' exact component={Team} />
       </Routes>

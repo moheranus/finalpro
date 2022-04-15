@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Reports = () => {
+export const Meeting = () => {
   return (
     <div className='reports'>
       <h1>Reports</h1>
@@ -8,7 +8,7 @@ export const Reports = () => {
   );
 };
 
-export const ReportsOne = () => {
+export const MeetingOne = () => {
   return (
     <div className='reports'>
       <h1>Reports/reports1</h1>
@@ -16,7 +16,7 @@ export const ReportsOne = () => {
   );
 };
 
-export const ReportsTwo = () => {
+export const MeetingTwo = () => {
   return (
     <div className='reports'>
       <h1>Reports/reports2</h1>

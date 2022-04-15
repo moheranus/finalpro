@@ -7,6 +7,8 @@ import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
 
+import TopTitle from './TopTitle';
+
 const Nav = styled.div`
   background: #fff;
   height: 80px;
@@ -54,6 +56,7 @@ const Sidebar = () => {
           <NavIcon to='#'>
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
+          <TopTitle />
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>

@@ -27,7 +27,7 @@ export const SidebarData = [
   },
   {
     title: 'Next Meeting',
-    path: '/reports',
+    path: '/meeting',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -35,13 +35,13 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Meeting 1',
-        path: '/reports/reports1',
+        path: '/meeting/meeting 1',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
         title: 'Meeting 2',
-        path: '/reports/reports2',
+        path: '/meeting/meeting 2',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
