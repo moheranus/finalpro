@@ -1,0 +1,121 @@
+
+
+.title{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    display: flex;
+
+}
+.titleOne{
+    color: #047dff;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.titleTwo{
+    color: #047dff;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 10%;
+}
+
+.searchInputs input{
+  width: 350px;
+  height: 30px;
+  border: 1px solid #decece;
+}
+.searchInputs input:focus{
+  border: 1px solid #c118cc;
+}
+
+
+.search{
+
+  margin-left: 50px;
+}
+@media screen and (max-width: 1154px){
+  .searchInputs input{
+    width: 250px;
+
+  }
+}
+@media screen and (max-width: 1014px){
+  .title{
+
+      margin-left: 5%;
+
+
+  }
+  .searchInputs input{
+    width: 200px;
+
+  }
+  .titleTwo{
+
+      margin-left: 5%;
+  }
+  .search{
+
+    margin-left: 30px;
+  }
+
+}
+@media screen and (max-width: 883px){
+  .titleOne{
+
+      font-size: 1.1em;
+      font-weight: 500;
+  }
+  .titleTwo{
+
+      font-size: 0.8em;
+      font-weight: 200;
+      margin-left: 10%;
+
+  }
+
+  .searchInputs input{
+    width: 250px;
+
+  }
+}
+@media screen and (max-width: 770px){
+  .titleOne{
+
+    display: none;
+  }
+  .titleTwo{
+
+    display: none;
+
+  }
+  .searchInputs input{
+    width: 350px;
+
+  }
+  .search{
+
+    margin-left: 40%;
+  }
+
+}
+@media screen and (max-width: 567px){
+  .search{
+
+    margin-left: 25%;
+  }
+  .searchInputs input{
+    width: 300px;
+
+  }
+}
+@media screen and (max-width: 450px){
+  .search{
+
+    margin-left: 10%;
+  }
+  .searchInputs input{
+    width: 200px;
+
+  }
+}
