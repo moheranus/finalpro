@@ -28,6 +28,7 @@ justify-content: flex-start;
 align-items: center;
 border-top: 3px solid #183bd1;
 
+
 @media screen and (max-width: 513px){
 
 

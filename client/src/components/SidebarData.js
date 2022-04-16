@@ -9,7 +9,7 @@ export const SidebarData = [
   {
 
     title: 'Documents',
-    path: '/document',
+    path: '/',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
