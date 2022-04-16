@@ -45,8 +45,3 @@ function App() {
 }
 
 export default App;
-// <Route path='/overview' exact component={Overview} />
-
-// <Route path='/document'exact component={Document} />
-// <Route path = '/research'exact component={Research} />
-// <Route path = '/thesis'exact component={Thesis} />
