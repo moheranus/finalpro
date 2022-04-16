@@ -1,10 +1,11 @@
+
 import React from 'react';
 
 
-export default function Research(){
+export default function Document(){
     return (
         <>
-        <h1 >Research</h1>
+        <h1 >Document</h1>
         </>
     );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-export default function Research(){
+export default function Draft(){
     return (
         <>
-        <h1 >Research</h1>
+        <h1 >Send Draft</h1>
         </>
     );
 }

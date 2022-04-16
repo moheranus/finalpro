@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-export default function Research(){
+export default function Comments(){
     return (
         <>
-        <h1 >Research</h1>
+        <h1 >PendingComments</h1>
         </>
     );
 }

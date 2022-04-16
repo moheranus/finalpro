@@ -4,10 +4,12 @@ import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 
+// import App from '../App';
 export const SidebarData = [
   {
+
     title: 'Documents',
-    path: '/overview',
+    path: '/document',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -15,73 +17,52 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Research',
-        path: '/overview/users',
+        path: '/research',
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Thesis',
-        path: '/overview/revenue',
+        path: '/thesis',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
   {
-    title: 'Next Meeting',
+    title: 'NextMeeting',
     path: '/meeting',
     icon: <IoIcons.IoIosPaper />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: 'Meeting 1',
-        path: '/meeting/meeting 1',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'Meeting 2',
-        path: '/meeting/meeting 2',
-        icon: <IoIcons.IoIosPaper />,
-        cName: 'sub-nav'
-      },
 
-    ]
   },
   {
     title: 'Send draft',
-    path: '/products',
+    path: '/draft',
     icon: <FaIcons.FaCartPlus />
   },
   {
     title: 'Group',
-    path: '/team',
+    path: '/group',
     icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'Pending Comments',
-    path: '/messages',
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    title: 'PendingComments',
+    path: '/comment',
+    icon: <FaIcons.FaEnvelopeOpenText />
 
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: 'Message 1',
-        path: '/messages/message1',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Message 2',
-        path: '/messages/message2',
-        icon: <IoIcons.IoIosPaper />
-      }
-    ]
   },
   {
-    title: 'Support',
-    path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />
-  }
+    title: 'Social',
+    path: '/social',
+    icon: <RiIcons.RiUserShared2Fill/>
+},
+{
+  title: 'Notification',
+  path: '/notification',
+  icon: <RiIcons.RiNotificationOffFill/>
+},
+{
+  title: 'Update',
+  path: '/update',
+  icon: <RiIcons.RiNotificationOffFill/>
+}
 ];

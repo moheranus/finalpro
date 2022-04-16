@@ -8,7 +8,26 @@ import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
 
 import TopTitle from './TopTitle';
+import TopNav from './TopNav';
 
+
+const sizes = {
+  mobileS: '320px',
+  mobileM: '375px',
+  mobileL: '425px',
+  tablet: '768px',
+  laptop: '1024px',
+  laptopL: '1440px',
+  desktop: '2560px',
+};
+const Navbar  = styled.div`
+background: #ffffff;
+height: 80px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+border-top: 3px solid #183bd1;
+`;
 const Nav = styled.div`
   background: #fff;
   height: 80px;
@@ -52,13 +71,18 @@ const Sidebar = () => {
   return (
     <>
       <IconContext.Provider value={{ color: '#000000' }}>
+
         <Nav>
           <NavIcon to='#'>
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
           <TopTitle />
         </Nav>
+        <Navbar>
+           <TopNav />
+        </Navbar>
         <SidebarNav sidebar={sidebar}>
+          
           <SidebarWrap>
             <NavIcon to='#'>
               <AiIcons.AiOutlineClose onClick={showSidebar} />

@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-export default function Research(){
+export default function Social(){
     return (
         <>
-        <h1 >Research</h1>
+        <h1 >SOCIALs</h1>
         </>
     );
 }
