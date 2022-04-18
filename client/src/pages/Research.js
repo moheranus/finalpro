@@ -29,7 +29,7 @@ export default function Research(){
                   </tr>
                   <tr>
                   <td>self managing drone</td>
-                  <td>ElectroMechanical</td>
+                  <td>Electro Mechanical</td>
                   <td>****</td>
                   <td>5/6/2022</td>
                   </tr>
@@ -48,7 +48,7 @@ export default function Research(){
                   </tr>
                   <tr>
                   <td>self managing drone</td>
-                  <td>ElectroMechanical</td>
+                  <td>Electro Mechanical</td>
                   <td>****</td>
                   <td>5/6/2022</td>
                   </tr>

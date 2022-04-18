@@ -25,14 +25,14 @@ export default function Document(){
                     <td>12/7/2019</td>
                     </tr>
                     <tr>
-                    <td>RM managment system</td>
+                    <td> RMs managment system</td>
                     <td>Software</td>
                     <td>*****</td>
                     <td>4/4/2022</td>
                     </tr>
                     <tr>
                     <td>self managing drone</td>
-                    <td>ElectroMechanical</td>
+                    <td>Electro Mechanical</td>
                     <td>****</td>
                     <td>5/6/2022</td>
                     </tr>
@@ -51,7 +51,7 @@ export default function Document(){
                     </tr>
                     <tr>
                     <td>self managing drone</td>
-                    <td>ElectroMechanical</td>
+                    <td>Electro Mechanical</td>
                     <td>****</td>
                     <td>5/6/2022</td>
                     </tr>

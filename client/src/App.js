@@ -16,6 +16,7 @@ import Comments from './pages/Comments.js';
 import Draft from './pages/Draft.js';
 import Meeting from './pages/Meeting.js';
 import Group from './pages/Group.js';
+import Footer from './pages/Footer.js';
 
 
 
