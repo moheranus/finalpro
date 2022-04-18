@@ -37,7 +37,9 @@ function App() {
         <Route path='/thesis' element={<Thesis />} />
         <Route path='/group' element={<Group />} />
         <Route path='/comment' element={<Comments />} />
+        /
       </Routes>
+      <Footer />
     </Router>
 
   );

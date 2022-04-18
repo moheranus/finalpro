@@ -119,3 +119,18 @@
 
   }
 }
+.login-btn{
+  margin-left: 100px;
+}
+.buttons {
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {background-color: #008CBA;}

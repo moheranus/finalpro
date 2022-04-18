@@ -18,6 +18,9 @@ const TopTitle = () =>{
               </div>
 
           </div>
+          <div className="login-btn">
+                  <button class="buttons button2">Login</button>
+          </div>
     </div>
 
 
