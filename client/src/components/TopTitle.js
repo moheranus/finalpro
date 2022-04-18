@@ -1,6 +1,6 @@
 import React from 'react';
 import './TopTitle.css';
-
+import { NavLink } from 'react-router-dom';
 const TopTitle = () =>{
   return (
     <>
@@ -19,7 +19,12 @@ const TopTitle = () =>{
 
           </div>
           <div className="login-btn">
-                  <button class="buttons button2">Login</button>
+            <NavLink to="/login">
+              <button class="buttons button2">Login</button>
+
+            </NavLink>
+
+
           </div>
     </div>
 

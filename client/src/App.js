@@ -17,6 +17,8 @@ import Draft from './pages/Draft.js';
 import Meeting from './pages/Meeting.js';
 import Group from './pages/Group.js';
 import Footer from './pages/Footer.js';
+import Login from './pages/Login.js';
+import SignUp from './pages/SignUp.js';
 
 
 
@@ -37,6 +39,9 @@ function App() {
         <Route path='/thesis' element={<Thesis />} />
         <Route path='/group' element={<Group />} />
         <Route path='/comment' element={<Comments />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<SignUp />} />
+
         /
       </Routes>
       <Footer />
