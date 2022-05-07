@@ -86,7 +86,6 @@ export default function Document(){
                                               <td>12/7/2019</td>
                                             <td><button class="btn btn-primary">View</button></td>
 
-
                                         </tr>
                                         <tr>
                                           <td>5</td>
