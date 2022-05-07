@@ -11,14 +11,7 @@ function ProposalRequest(){
         <div className = "document-container">
           <div className = "adjustment">
 
-
-
-
           </div>
-
-
-
-
 
 
                 <div class="container-fluid">
@@ -84,7 +77,7 @@ function ProposalRequest(){
                                         </tr>
                                         <tr>
                                             <td>5</td>
-                                              <td>Digital Assistant</td>
+                                              <td>Digital sign Assistant</td>
 
                                               <td>12/7/2019</td>
                                             <td><button class="btn btn-primary">Approve</button></td>
