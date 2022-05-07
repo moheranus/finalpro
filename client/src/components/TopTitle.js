@@ -8,7 +8,7 @@ const TopTitle = () =>{
     <div className="title">
          <div className="title-text">
            <p className="titleOne">Addis Ababa Science And Technology University</p>
-           <p className="titleTwo">Research and Thesis Management System</p>
+           <p className="titleTwo">Project Management System</p>
          </div>
 
             <div class="search">

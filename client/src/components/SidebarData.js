@@ -27,6 +27,50 @@ export const SidebarData = [
       }
     ]
   },
+
+
+
+  {
+
+    title: 'StudentSpace',
+    path: '/studentspace',
+    icon: <AiIcons.AiFillHome />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'Social',
+        path: '/social',
+        icon: <RiIcons.RiUserShared2Fill/>
+      },
+      {
+        title: 'Group',
+        path: '/Group',
+        icon: <IoIcons.IoIosPaper />
+    },
+      {
+        title: 'Send Draft',
+        path: '/draft',
+        icon: <IoIcons.IoIosPaper />
+    },
+      {
+        title: 'NextMeeting',
+        path: '/meeting',
+        icon: <IoIcons.IoIosPaper />
+    },
+    {
+      title: 'Proposal',
+      path: '/proposal',
+      icon: <IoIcons.IoIosPaper />
+  },
+    {
+      title: 'PendingComments',
+      path: '/comment',
+      icon: <FaIcons.FaEnvelopeOpenText />
+    }
+    ]
+  },
   {
     title: 'NextMeeting',
     path: '/meeting',
@@ -37,7 +81,7 @@ export const SidebarData = [
   {
     title: 'Send draft',
     path: '/draft',
-    icon: <FaIcons.FaCartPlus />
+    icon: <IoIcons.IoMdPeople />
   },
   {
     title: 'Group',
@@ -61,8 +105,19 @@ export const SidebarData = [
   icon: <RiIcons.RiNotificationOffFill/>
 },
 {
+  title: 'ProposalRequest',
+  path: '/ProposalRequest',
+  icon: <RiIcons.RiNotificationOffFill/>
+},
+{
   title: 'Update',
   path: '/update',
   icon: <RiIcons.RiNotificationOffFill/>
+},
+{
+   title: 'Setting',
+   path: '/setting',
+   icon: <RiIcons.RiNotificationOffFill/>
+
 }
 ];

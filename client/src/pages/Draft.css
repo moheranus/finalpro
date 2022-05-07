@@ -1,0 +1,149 @@
+
+
+.dragdrop-container{
+  margin-left: 8%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+  width: 84%;
+  background-color: #fff;
+  height: 400px;
+
+}
+.text-cont{
+  padding-top: 40px;
+  padding-left: 30%;
+  color: #3044a5;
+}
+.text-cont p{
+  font-size: 2.37em;
+  font-weight: 700;
+}
+.fileUpload{
+ justify-content: center;
+ align-items: center;
+ padding-top: 50px;
+ padding-left: 30%;
+
+}
+.submit-btn{
+margin-top: 70px;
+margin-left: 30%;
+}
+.buttonss {
+
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+  cursor: pointer;
+
+}
+.buttonss2 {
+
+  margin-left: 20%;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+  cursor: pointer;
+
+}
+
+.button22 {
+  background-color: #008CBA;
+}
+.button22:hover{
+  background-color: #08a8dd;
+}
+
+
+@media screen and (max-width: 1289px){
+  .text-cont{
+    padding-left: 23%;
+  }
+  .fileUpload{
+   padding-left: 23%;
+  }
+  .submit-btn{
+
+  margin-left: 23%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .text-cont{
+    padding-left: 10%;
+  }
+  .fileUpload{
+   padding-left: 10%;
+  }
+  .submit-btn{
+
+  margin-left: 10%;
+  }
+}
+@media screen and (max-width: 762px){
+  .text-cont{
+    padding-left: 5%;
+  }
+  .fileUpload{
+   padding-left: 5%;
+  }
+  .submit-btn{
+
+  margin-left: 5%;
+  }
+}
+@media screen and (max-width: 660px){
+  .text-cont{
+    padding-left: 1%;
+  }
+  .fileUpload{
+   padding-left: 1%;
+  }
+  .submit-btn{
+
+  margin-left: 1%;
+  }
+  .text-cont p{
+    font-size: 2em;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .text-cont{
+    padding-left: 50px;
+  }
+  .fileUpload{
+   padding-left: 2px;
+   padding-right: 2px;
+  }
+  .submit-btn{
+ margin-top: 50px;
+  margin-left: 10px;
+  }
+  .text-cont p{
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 480px){
+  .text-cont{
+    padding-left: 20px;
+  }
+
+  .text-cont p{
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+}
