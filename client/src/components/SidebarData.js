@@ -110,6 +110,11 @@ export const SidebarData = [
   icon: <RiIcons.RiNotificationOffFill/>
 },
 {
+  title: 'ProjectRate',
+  path: '/ProjectRate',
+  icon: <RiIcons.RiNotificationOffFill/>
+},
+{
   title: 'Update',
   path: '/update',
   icon: <RiIcons.RiNotificationOffFill/>
