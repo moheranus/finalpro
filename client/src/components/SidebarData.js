@@ -3,7 +3,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
-
+// mongodb+srv://haja:haja123@cluster0.yfr7o.mongodb.net/test
 // import App from '../App';
 export const SidebarData = [
   {
@@ -14,18 +14,18 @@ export const SidebarData = [
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: 'Research',
-        path: '/research',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Thesis',
-        path: '/thesis',
-        icon: <IoIcons.IoIosPaper />
-      }
-    ]
+    // subNav: [
+    //   {
+    //     title: 'Research',
+    //     path: '/research',
+    //     icon: <IoIcons.IoIosPaper />
+    //   },
+    //   {
+    //     title: 'Thesis',
+    //     path: '/thesis',
+    //     icon: <IoIcons.IoIosPaper />
+    //   }
+    // ]
   },
 
 
@@ -72,13 +72,8 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'NextMeeting',
-    path: '/meeting',
-    icon: <IoIcons.IoIosPaper />,
 
 
-  },
-  {
     title: 'Send draft',
     path: '/draft',
     icon: <IoIcons.IoMdPeople />
@@ -88,17 +83,8 @@ export const SidebarData = [
     path: '/group',
     icon: <IoIcons.IoMdPeople />
   },
-  {
-    title: 'PendingComments',
-    path: '/comment',
-    icon: <FaIcons.FaEnvelopeOpenText />
 
-  },
-  {
-    title: 'Social',
-    path: '/social',
-    icon: <RiIcons.RiUserShared2Fill/>
-},
+
 {
   title: 'Notification',
   path: '/notification',
@@ -115,14 +101,10 @@ export const SidebarData = [
   icon: <RiIcons.RiNotificationOffFill/>
 },
 {
-  title: 'Update',
-  path: '/update',
+  title: 'RegisterStudent',
+  path: '/registerStudent',
   icon: <RiIcons.RiNotificationOffFill/>
-},
-{
-   title: 'Setting',
-   path: '/setting',
-   icon: <RiIcons.RiNotificationOffFill/>
-
 }
+
+
 ];

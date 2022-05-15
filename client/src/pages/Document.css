@@ -3,3 +3,21 @@
   margin-bottom: 20px;
   color: #001d21;
 }
+.select-container{
+
+}
+.select-container select{
+  width: 200px;
+  height: 40px;
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  /* -webkit-box-shadow: -7px 15px 14px -3px rgba(0,0,0,0.39);
+  box-shadow: -7px 15px 14px -3px rgba(0,0,0,0.39); */
+  background-color: #047dff;
+  border: none;
+  color: #fff;
+}
+.select-container select option{
+  background-color: #0abea9;
+}

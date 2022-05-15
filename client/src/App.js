@@ -19,6 +19,7 @@ import StudentSpace from './pages/StudentSpace.js';
 import Proposal from './pages/Proposal.js';
 import ProposalRequest from './pages/ProposalRequest.js';
 import ProjectRate from './pages/ProjectRate.js';
+import RegisterStudent from './pages/RegisterStudent.js';
 function App() {
   return (
     <Router>
@@ -41,6 +42,7 @@ function App() {
         <Route path = '/proposal' element={<Proposal />} />
         <Route path = '/ProposalRequest' element={<ProposalRequest />} />
         <Route path = '/ProjectRate' element={<ProjectRate />} />
+        <Route path='/registerStudent' element={<RegisterStudent />} />
 
       </Routes>
       <Footer />

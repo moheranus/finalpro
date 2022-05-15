@@ -17,12 +17,57 @@ function Proposal() {
       <div className="text-cont">
            <p>Drop your Proposal here</p>
       </div>
-      <div className="fileUpload">
-              <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
-      </div>
-      <div className="submit-btn">
-             <button class="buttonss button22">Submit</button>
-             <button class="buttonss2 button22">Write New</button>
+
+      <div className="proposal-container">
+
+        <div className="ProposalInput">
+          <div className="proposalOne">
+               <div className="textTitle">
+                     <div className="proposal-text">proposal_1:</div>
+                 <div className="proposal-sub1">
+                       <input type="text"placeholder=" title of the first proposal"></input>
+
+                 </div>
+               </div>
+               <div className="fileUpload">
+                       <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
+               </div>
+          </div>
+          <div className="proposalTwo">
+            <div className="textTitle">
+                  <div className="proposal-text">proposal_2:</div>
+              <div className="proposal-sub1">
+                    <input type="text"placeholder=" title of the second proposal"></input>
+
+              </div>
+            </div>
+            <div className="fileUpload">
+                    <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
+            </div>
+          </div>
+          <div className="proposalThree">
+            <div className="textTitle">
+                  <div className="proposal-text">proposal_3:</div>
+              <div className="proposal-sub1">
+                    <input type="text"placeholder=" title of the third proposal"></input>
+
+              </div>
+            </div>
+            <div className="fileUpload">
+                    <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+              <div className="proposal_btn">
+                     <button class="buttons button2">Submit</button>
+              </div>
       </div>
 
 

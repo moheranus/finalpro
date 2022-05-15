@@ -53,8 +53,25 @@ const togglePopup = () => {
                                           {isOpen && <GradeModal
                                               content={<>
                                                 <h2>Grade The Project</h2>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                <button>Test button</button>
+                                                <div className="select-container">
+                                                     <select>
+                                                           <option value="">Select Grade</option>
+                                                           <option value="">A+</option>
+                                                           <option value="">A</option>
+                                                           <option value="">A-</option>
+                                                           <option value="">B+</option>
+                                                           <option value="">B</option>
+                                                           <option value="">B-</option>
+                                                           <option value="">C+</option>
+                                                           <option value="">C</option>
+                                                           <option value="">C-</option>
+                                                           <option value="">D</option>
+                                                           <option value="">F</option>
+
+                                                     </select>
+                                                </div>
+                                                <p>This is only used for the purpose of rating the project</p>
+                                                <button class="buttons button2">Submit</button>
                                               </>}
                                               handleClose={togglePopup}
                                             />}
