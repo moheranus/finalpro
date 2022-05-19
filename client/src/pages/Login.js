@@ -8,42 +8,40 @@ export default function Login(){
         <>
 
 
-        <div className="login-container">
-            <div className="BoxContainer">
-                <div className="TopContainer">
-                         <div className="BackDrop"></div>
-                      <div className="HeaderContainer">
-                            <div className="HeaderText">
-                                <h2>WELCOME TO</h2>
-                                <h2>RTMS</h2>
-
-                            </div>
-                            <div className="SmallText">
-                                  <h5>Please sign-in to contnue!</h5>
-                            </div>
-                      </div>
-
-                </div>
-                <div className="InnerContainer">
-                    <div className="FormContainer">
-                          <input type="email" placeholder="email" />
-                          <input type="password" placeholder="password" />
-                          <a href="/">Forgot your password?</a>
-
-                          <button type="submit" className="signin-btn">Signin</button>
-
-                          <h5>Don't have an account? <a href="/"className="BoldLink"><Link to='/signup'>
-                           SignUp
-                         </Link> </a>
 
 
-                           </h5>
+        <div class="login-container">
+        	<div class="screen">
+        		<div class="screen__content">
+        			<form class="login">
+        				<div class="login__field">
+        					<i class="login__icon fas fa-user"></i>
+        					<input type="text" class="login__input" placeholder="User name / Email"></input>
+        				</div>
+        				<div class="login__field">
+        					<i class="login__icon fas fa-lock"></i>
+        					<input type="password" class="login__input" placeholder="Password"></input>
+        				</div>
+        				<button class="button login__submit">
+        					<span class="button__text">Log In Now</span>
+        					<i class="button__icon fas fa-chevron-right"></i>
+        				</button>
+        			</form>
+        			<div class="social-login">
+        				<h3>PMS</h3>
 
-                    </div>
-                </div>
-            </div>
-
+        			</div>
+        		</div>
+        		<div class="screen__background">
+        			<span class="screen__background__shape screen__background__shape4"></span>
+        			<span class="screen__background__shape screen__background__shape3"></span>
+        			<span class="screen__background__shape screen__background__shape2"></span>
+        			<span class="screen__background__shape screen__background__shape1"></span>
+        		</div>
+        	</div>
         </div>
+
+
         </>
     );
 }
